@@ -1,5 +1,5 @@
 FROM alpine:latest
-ENV FR24_VERSION 1.0.34-0
+ENV FR24_VERSION 1.0.25-3
 
 RUN wget https://repo-feed.flightradar24.com/linux_x86_64_binaries/fr24feed_${FR24_VERSION}_amd64.tgz &&\
  tar xzf fr24feed_${FR24_VERSION}_amd64.tgz -C / &&\
